@@ -1,11 +1,12 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, AppRegistry } from 'react-native';
+import { StackNavigator } from 'react-navigation';
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>Impending Koalas.</Text>
+        <Text>Lotsa Koalas.</Text>
 
       </View>
     );
